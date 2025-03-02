@@ -1,0 +1,174 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header .logo h1 {
+    font-size: 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+    color: #f4c542;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1600x600?text=Explore+India');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.cta-button {
+    background-color: #f4c542;
+    color: black;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Destinations Section */
+.destinations {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.destination-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.destination h3 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.destination p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* About Section */
+.about {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
